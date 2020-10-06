@@ -22,40 +22,40 @@ Most of the variables are variations on the Elo score, which is "a measure of st
 One of the important features in my model were the quarterback elo scores explained here: "Our quarterback-adjusted Elo model incorporates news reports to project likely starters for every upcoming game and uses our quarterback Elo ratings to adjust win probabilities for those games. A team’s current quarterback adjustment is based on possible starters in its next game and how much better or worse that QB is than the team’s top starter." (source: https://projects.fivethirtyeight.com/2019-nfl-predictions/)
 
 Definition
-date -	Date of game
-year -   Year of game
-month -  Month of game
-day -    Day of game
-season-	Year of season
-neutral -	Whether game was on a neutral site
-playoff -	Whether game was in playoffs, and the playoff round
-team1 -	Abbreviation for home team
-team2 -	Abbreviation for away team
-elo1_pre -	Home team's Elo rating before the game
-elo2_pre -	Away team's Elo rating before the game
-elo_prob1 -	Home team's probability of winning according to Elo ratings
-elo_prob2 -	Away team's probability of winning according to Elo ratings
-elo1_post -	Home team's Elo rating after the game
-elo2_post -	Away team's Elo rating after the game
-qbelo1_pre -	Home team's quarterback-adjusted base rating before the game
-qbelo2_pre -	Away team's quarterback-adjusted base rating before the game
-qb1 -	Name of home starting quarterback
-qb2 -	Name of away starting quarterback
-qb1_value_pre -	Home starting quarterbacks's raw Elo value before the game
-qb2_value_pre -	Away starting quarterbacks's raw Elo value before the game
-qb1_adj -	Home starting quarterbacks's Elo adjustment for the game
-qb2_adj -	Away starting quarterbacks's Elo adjustment for the game
-qbelo_prob1 -	Home team's probability of winning according to quarterback-adjusted Elo
-qbelo_prob2 -	Away team's probability of winning according to quarterback-adjusted Elo
-qb1_game_value -	Home quarterback's Elo value during this game
-qb2_game_value -	Away quarterback's Elo value during this game
-qb1_value_post -	Home starting quarterbacks's raw Elo value after the game
-qb2_value_post -	Away starting quarterbacks's raw Elo value after the game
-qbelo1_post -	Home team's quarterback-adjusted base rating after the game
-qbelo2_post -	Away team's quarterback-adjusted base rating after the game
-score1 -	Home team's score
-score2 -	Away team's score
-result1 - Whether or not team1 won the game (1=team1 won, 0=team2 won)
+date -	Date of game <br />
+year -   Year of game <br />
+month -  Month of game <br />
+day -    Day of game <br />
+season-	Year of season <br />
+neutral -	Whether game was on a neutral site <br />
+playoff -	Whether game was in playoffs, and the playoff round <br />
+team1 -	Abbreviation for home team <br />
+team2 -	Abbreviation for away team <br />
+elo1_pre -	Home team's Elo rating before the game <br />
+elo2_pre -	Away team's Elo rating before the game <br />
+elo_prob1 -	Home team's probability of winning according to Elo ratings <br />
+elo_prob2 -	Away team's probability of winning according to Elo ratings <br />
+elo1_post -	Home team's Elo rating after the game <br />
+elo2_post -	Away team's Elo rating after the game <br />
+qbelo1_pre -	Home team's quarterback-adjusted base rating before the game <br />
+qbelo2_pre -	Away team's quarterback-adjusted base rating before the game <br />
+qb1 -	Name of home starting quarterback <br />
+qb2 -	Name of away starting quarterback <br />
+qb1_value_pre -	Home starting quarterbacks's raw Elo value before the game <br />
+qb2_value_pre -	Away starting quarterbacks's raw Elo value before the game <br />
+qb1_adj -	Home starting quarterbacks's Elo adjustment for the game <br />
+qb2_adj -	Away starting quarterbacks's Elo adjustment for the game <br />
+qbelo_prob1 -	Home team's probability of winning according to quarterback-adjusted Elo <br />
+qbelo_prob2 -	Away team's probability of winning according to quarterback-adjusted Elo <br />
+qb1_game_value -	Home quarterback's Elo value during this game <br />
+qb2_game_value -	Away quarterback's Elo value during this game <br />
+qb1_value_post -	Home starting quarterbacks's raw Elo value after the game <br />
+qb2_value_post -	Away starting quarterbacks's raw Elo value after the game <br />
+qbelo1_post -	Home team's quarterback-adjusted base rating after the game <br />
+qbelo2_post -	Away team's quarterback-adjusted base rating after the game <br />
+score1 -	Home team's score <br />
+score2 -	Away team's score <br />
+result1 - Whether or not team1 won the game (1=team1 won, 0=team2 won) <br />
 
 ### References
 1. To implement linear regression:
